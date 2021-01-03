@@ -5,7 +5,10 @@ public class Main{
         JFrame frame = new JFrame("Hello");
         frame.setSize(500, 500);
         frame.setDefaultCloseOperation(3);
+        frame.add(new JLabel("Hello World"));
+
         frame.setVisible(true);
+
         
     }   
 }
