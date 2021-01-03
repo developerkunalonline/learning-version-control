@@ -6,8 +6,7 @@ public class Main{
         frame.setSize(500, 500);
         frame.setDefaultCloseOperation(3);
         frame.add(new JLabel("Hello World"));
-        System.out.println("Hello");
-        System.out.println("World");
+        System.out.println("Kunal is gr8 !!!!");
         frame.setVisible(true);
 
         
