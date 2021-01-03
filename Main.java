@@ -1,5 +1,11 @@
-class Main{
+import javax.swing.*;
+public class Main{
     public static void main(String args[]){
-        System.out.println("Hello");
+        
+        JFrame frame = new JFrame("Hello");
+        frame.setSize(500, 500);
+        frame.setDefaultCloseOperation(3);
+        frame.setVisible(true);
+        
     }   
 }
